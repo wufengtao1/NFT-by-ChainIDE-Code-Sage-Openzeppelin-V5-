@@ -13,15 +13,15 @@ Provide an example of an NFT metadata service using the Express framework. The s
 const planets = [
   {
     id: 1,
-    name: 'Planet A',
-    description: 'This is Planet A. It is a beautiful blue planet with lush green forests.',
-    image: 'https://example.com/planet-a.jpg'
+    name: 'Earth',
+    description: 'The third planet from the Sun and the only known astronomical object known to harbor life.',
+    image: 'https://example.com/earth.jpg'
   },
   {
     id: 2,
-    name: 'Planet B',
-    description: 'This is Planet B. It is a red planet with vast deserts and towering mountains.',
-    image: 'https://example.com/planet-b.jpg'
+    name: 'Mars',
+    description: 'The fourth planet from the Sun and the second-smallest planet in the Solar System.',
+    image: 'https://example.com/mars.jpg'
   }
 ];
 ```
