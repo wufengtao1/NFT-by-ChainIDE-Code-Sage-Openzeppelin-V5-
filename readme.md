@@ -15,13 +15,13 @@ const planets = [
     id: 1,
     name: 'Earth',
     description: 'The third planet from the Sun and the only known astronomical object known to harbor life.',
-    image: 'https://example.com/earth.jpg'
+    image: 'https://th.bing.com/th/id/OIG.9e9ZjALU8VLLnq2K_BXE?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn'
   },
   {
     id: 2,
     name: 'Mars',
     description: 'The fourth planet from the Sun and the second-smallest planet in the Solar System.',
-    image: 'https://example.com/mars.jpg'
+    image: 'https://th.bing.com/th/id/OIG.IZnE7KUxKYD9q.nAT.Ei?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn'
   }
 ];
 ```
