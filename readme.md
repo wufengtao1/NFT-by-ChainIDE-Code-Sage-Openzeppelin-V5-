@@ -1,6 +1,6 @@
 #### Backend
 
-1. ask
+1. Ask
 
 `
 Provide an example of an NFT metadata service using the Express framework. The service should include a feature to query the details of two different planets, with the descriptions presented in a visualized manner, and return the metadata in JSON format.
@@ -26,7 +26,7 @@ const planets = [
 ];
 ```
 
-4. open sandbox
+4. Open sandbox
 
 ```
 cd backend
@@ -39,7 +39,7 @@ node server.js
 
 #### Contract
 
-1. ask
+1. Ask
 
 `
 Provide an NFT contract written in Solidity 0.8.23 that overrides the _baseURI() function, renames the private _baseURI variable to _myBaseURI, and includes a mint() function that requires only the address to be filled in, automatically assigning the tokenId.
@@ -49,20 +49,20 @@ Provide an NFT contract written in Solidity 0.8.23 that overrides the _baseURI()
 
 #### Frontend
 
-1. ask
+1. Ask
 
 `Provide an App.js file using React, which includes a connection to MetaMask using ethers.js and a function for minting an NFT (Only the "address" parameter).`
 
-2. init react app
+2. Init react app
 
 ```
 npx create-react-app frontend -y
 ```
 
-3. then, copy generated frontend code to `frontend/src/App.js`
+3. Then, copy generated frontend code to `frontend/src/App.js`
 4. Define contractaddress and contractABI in `frontend/src/App.js`
 
-5. start frontend
+5. Start frontend
 
 ```
 cd frontend
@@ -72,4 +72,4 @@ yarn start
 
 6. Forward port 3001 (Protocol: HTTP)
 7. Open port forwarded link and start minting.
-8. Github repo: https://github.com/wufengtao1/NFT-by-ChainIDE-Code-Sage-Openzeppelin-V5-
+8. Github repo: [NFT-by-ChainIDE-Code-Sage-Openzeppelin-V5](https://github.com/wufengtao1/NFT-by-ChainIDE-Code-Sage-Openzeppelin-V5-)
