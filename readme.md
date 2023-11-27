@@ -45,7 +45,7 @@ node server.js
 Provide an NFT contract written in Solidity 0.8.23 that overrides the _baseURI() function, renames the private _baseURI variable to _myBaseURI, and includes a mint() function that requires only the address to be filled in, automatically assigning the tokenId.
 `
 
-2. Create a folder called 'contracts', then create a file named `SimpleNFT.sol`, paste the code into this file, then compile,deploy this contract to testnet with params for baseUri: `portforwardPath + "/planets/"`. For example:`https://sandbox-462b47ed7bda42c1a3e0627df87d0edd-binance-3000.uat-sandbox.chainide.com/planets/`
+2. Create a folder called 'contracts', then create a file named `SimpleNFT.sol`, paste the code into this file, then compile,deploy `NFTContract` to ETH Testnet with params for baseUri: `portforwardPath + "/planet/"`. For example:`https://sandbox-462b47ed7bda42c1a3e0627df87d0edd-binance-3000.uat-sandbox.chainide.com/planet/`
 
 #### Frontend
 
@@ -72,4 +72,4 @@ yarn start
 
 6. Forward port 3001 (Protocol: HTTP)
 7. Open port forwarded link and start minting.
-8. Github repo: https://github.com/wufengtao1/NFT-by-ChainIDE-Code-Sage
+8. Github repo: https://github.com/wufengtao1/NFT-by-ChainIDE-Code-Sage-Openzeppelin-V5-
