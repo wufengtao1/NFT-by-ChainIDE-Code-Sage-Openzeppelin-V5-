@@ -42,7 +42,7 @@ node server.js
 1. Ask
 
 `
-Provide an NFT contract written in Solidity 0.8.23 that overrides the _baseURI() function, renames the private _baseURI variable to _myBaseURI, and includes a mint() function that requires only the address to be filled in, automatically assigning the tokenId.
+Provide an NFT contract written in Solidity 0.8.26 that overrides the _baseURI() function, renames the private _baseURI variable to _myBaseURI, and includes a mint() function that requires only the address to be filled in, automatically assigning the tokenId by using _nextTokenId++.
 `
 
 2. Create a folder called 'contracts', then create a file named `SimpleNFT.sol`, paste the code into this file, then compile,deploy `NFTContract` to ETH Testnet with params for baseUri: `portforwardPath + "/planet/"`. For example: `https://sandbox-462b47ed7bda42c1a3e0627df87d0edd-binance-3000.uat-sandbox.chainide.com/planet/`
