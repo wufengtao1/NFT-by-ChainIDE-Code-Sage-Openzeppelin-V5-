@@ -51,7 +51,7 @@ Provide an NFT contract written in Solidity 0.8.26 that overrides the _baseURI()
 
 1. Ask
 
-`Provide an App.js file using React, which includes a connection to MetaMask using ethers.js and a function for minting an NFT (Only the "address" parameter).`
+`Provide an App.js file using React and ether.js that implements a contract mint function (only the 'address' parameter, which users can fill in).`
 
 2. Init react app
 
@@ -60,7 +60,7 @@ npx create-react-app frontend -y
 ```
 
 3. Then, copy generated frontend code to `frontend/src/App.js`
-4. Define contractaddress and contractABI in `frontend/src/App.js`
+4. Define contractaddress in `frontend/src/App.js`
 
 5. Start frontend
 
