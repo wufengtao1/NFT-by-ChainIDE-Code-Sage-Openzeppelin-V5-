@@ -1,16 +1,17 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity ^0.8.26;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract NFTContract is ERC721 {
-    using Strings for uint256;
-
+contract MyNFT is ERC721 {
     string private _myBaseURI;
-    uint256 private _tokenIdCounter;
+    uint256 private _nextTokenId;
 
-    constructor(string memory baseURI) ERC721("NFTContract", "NFTC") {
+    constructor(
+        string memory name,
+        string memory symbol,
+        string memory baseURI
+    ) ERC721(name, symbol) {
         _myBaseURI = baseURI;
     }
 
@@ -19,7 +20,7 @@ contract NFTContract is ERC721 {
     }
 
     function mint(address to) public {
-        _tokenIdCounter++;
-        _safeMint(to, _tokenIdCounter);
+        _safeMint(to, _nextTokenId);
+        _nextTokenId++;
     }
 }
