@@ -62,7 +62,7 @@ npx create-react-app frontend -y
 ```
 
 3. Then, copy generated frontend code to `frontend/src/App.js`
-4. Define contractaddress in `frontend/src/App.js`
+4. Define contractAddress and contractABI in `frontend/src/App.js`
 
 5. Start frontend
 
