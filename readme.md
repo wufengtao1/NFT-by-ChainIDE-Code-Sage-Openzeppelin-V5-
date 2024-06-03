@@ -52,7 +52,7 @@ Provide an NFT contract written in Solidity 0.8.26 that overrides the _baseURI()
 1. Ask
 
 `
-Provide an App.js file using React and ether.js that first connects to the MetaMask wallet (displays the wallet address after connecting) and then implements a contract mint function (only the 'address' parameter, which users can fill in).
+Provide an App.js file using React and ether.js that first connects to the MetaMask wallet (displays the wallet address upon clicking) and then implements a contract mint function (only the 'address' parameter, which users can fill in).
 `
 
 2. Init react app
